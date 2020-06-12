@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+    <string-array name ="filterAttribute">
+        <item>Serial</item>
+        <item>Name</item>
+        <item>Phone No</item>
+        <item>Email Id</item>
+    </string-array>
+</resources>

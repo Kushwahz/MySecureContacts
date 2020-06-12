@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_contacts"
+    android:background="@drawable/ic_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.helpmevishal.mycontacts.AddContacts">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/et_name"
+        android:hint="Enter Name"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_borders"/>
+
+    <Button
+        android:text="Add Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:id="@+id/btn_add"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/et_borders"
+        android:id="@+id/et_email"
+        android:hint="Enter Email Address"
+        android:selectAllOnFocus="false"
+        android:layout_below="@+id/et_phone"
+        android:layout_alignLeft="@+id/et_phone"
+        android:layout_alignStart="@+id/et_phone" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_borders"
+        android:id="@+id/et_phone"
+        android:hint="Enter Contact Number"
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/et_name"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name" />
+
+</RelativeLayout>

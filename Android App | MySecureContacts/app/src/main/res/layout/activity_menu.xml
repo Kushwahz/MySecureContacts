@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.helpmevishal.mycontacts.Menu">
+
+    <Button
+        android:text="View Contacts"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn_view" />
+
+    <Button
+        android:text="Add New Contact"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_add"
+        android:layout_below="@+id/btn_view"
+        android:layout_alignLeft="@+id/btn_view"
+        android:layout_alignStart="@+id/btn_view" />
+
+    <Button
+        android:text="Search Contact"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_search"
+        android:layout_below="@+id/btn_add"
+        android:layout_alignLeft="@+id/btn_add"
+        android:layout_alignStart="@+id/btn_add" />
+
+    <Button
+        android:text="Edit Contact"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_edit"
+        android:layout_below="@+id/btn_search"
+        android:layout_alignLeft="@+id/btn_search"
+        android:layout_alignStart="@+id/btn_search" />
+
+    <Button
+        android:text="Delete Contact"
+        android:layout_width="250dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_btn"
+        android:layout_below="@+id/btn_edit"
+        android:layout_alignLeft="@+id/btn_edit"
+        android:layout_alignStart="@+id/btn_edit" />
+
+    <Button
+        android:text="LogOut"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_logOut"
+        android:layout_below="@+id/delete_btn"
+        android:layout_alignLeft="@+id/delete_btn"
+        android:layout_alignStart="@+id/delete_btn" />
+</RelativeLayout>
